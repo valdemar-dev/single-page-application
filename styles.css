@@ -1,0 +1,21 @@
+:root {
+    user-select: none;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+.fadeIn {
+    animation-duration: 1s;
+    animation-name: fadeIn;
+    animation-timing-function: ease;
+    opacity: 0%;
+    animation-delay: 200ms;
+    animation-fill-mode: forwards;
+}
